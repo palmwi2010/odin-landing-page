@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8
+}
+
+.overview p {
+    font-size:18px;
+    color: #E5e7eb;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    padding: 8px 128px 32px;
+}
+
+.navbar {
+    display: flex;
+    gap:16px;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FaF8
+}
+
+ul {
+    list-style-type: none;
+}
+
+.overview {
+    margin: 32px 0px;
+    display:flex;
+    flex-wrap: wrap;
+    gap:16px;
+}
+
+.overview-image {
+    flex: 0 0 auto;
+    width:300px;
+}
+
+.text-overview {
+    flex: 1 0 200px;
+}
+
+.btn {
+    padding:8px 24px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 8px;
+    border-style: none;
+}
+
+.btn:hover {
+    cursor:pointer;
+}
+
+.info {
+    padding: 8px 196px 64px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.card-row {
+    display: flex;
+    gap: 36px;
+    justify-content: space-between;
+}
+
+.img-placeholder {
+    width:100%;
+    aspect-ratio: 1/1;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+.img-label {
+    font-size: 12px;
+    text-align: center;
+    margin-top:8px
+}
+
+.quote-banner {
+    padding: 64px 256px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+.quotee {
+    text-align: right;
+    font-weight: 700;
+    margin-top: 6px;
+    font-size: 18px;
+}
+
+.cta {
+    padding: 24px 128px;
+}
+
+.cta-banner {
+    padding:24px 48px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-banner h4 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cta-banner p {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.cta-btn {
+    padding: 6px 18px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+}
+
+.cta-btn:hover {
+    cursor:pointer
+}
+
+.copyright {
+    background-color: #1F2937;
+    color: white;
+    padding: 24px 0px;
+    text-align: center;
+    font-size: 12px;
+}
